@@ -1,6 +1,12 @@
-# MEP-20: **Tokens on MXC zkEVM Chain**
+<pre>
+  MEP: 20
+  Title: Tokens on MXC zkEVM Chain
+  Status: Living
+  Type: Standards
+  Created: 2023-04-20
+</pre>
 
-**Created**: 2023-04-20
+# MEP-20: Tokens on MXC zkEVM Chain
 
 ## **Abstract**
 
