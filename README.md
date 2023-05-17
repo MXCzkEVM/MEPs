@@ -19,14 +19,14 @@ If your MEP requires images, the image files should be included in a subdirector
 
 ## MEPs
 
-| MEP Number | Title                                                    | Type      | Status |
-| ---------- | -------------------------------------------------------- | --------- | ------ |
-| MEP-1      | Purpose and Guidelines                                   | Process   | Living |
-| MEP-20     | Tokens on MXC zkEVM Chain                                | Standards | Draft  |
-| MEP-721    | Non-Fungible Token Standard on MXC zkEVM Chain           | Standards | Draft  |
-| MEP-801    | ISO Application Contract                                 | Standards | Draft  |
-| MEP-802    | Provisioning Contract                                    | Standards | Draft  |
-| MEP-803    | Sensor Data Contract                                     | Standards | Draft  |
-| MEP-804    | Reward Token Contract                                    | Standards | Draft  |
-| MEP-1002   | Nestable Non-Fungible Tokens Tied to IoT Geolocations    | Standards | Draft  |
-| MEP-1004   | Non-Fungible Tokens Tied to IoT Radio Base Station Miner | Standards | Draft  |
+| MEP Number                        | Title                                                    | Type      | Status |
+| --------------------------------- | -------------------------------------------------------- | --------- | ------ |
+| [MEP-1](proposals/mep-1.md)       | Purpose and Guidelines                                   | Process   | Living |
+| [MEP-20](proposals/mep-20.md)     | Tokens on MXC zkEVM Chain                                | Standards | Draft  |
+| [MEP-721](proposals/mep-721.md)   | Non-Fungible Token Standard on MXC zkEVM Chain           | Standards | Draft  |
+| [MEP-801](proposals/mep-801.md)   | ISO Application Contract                                 | Standards | Draft  |
+| [MEP-802](proposals/mep-802.md)   | Provisioning Contract                                    | Standards | Draft  |
+| [MEP-803](proposals/mep-803.md)   | Sensor Data Contract                                     | Standards | Draft  |
+| [MEP-804](proposals/mep-804.md)   | Reward Token Contract                                    | Standards | Draft  |
+| [MEP-1002](proposals/mep-1002.md) | Nestable Non-Fungible Tokens Tied to IoT Geolocations    | Standards | Draft  |
+| [MEP-1004](proposals/mep-1004.md) | Non-Fungible Tokens Tied to IoT Radio Base Station Miner | Standards | Draft  |
