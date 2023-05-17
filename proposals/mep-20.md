@@ -140,7 +140,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 #### Example implementations
 
 ```solidity
-pragma solidity ^0.4.24;
+pragma solidity ^0.5.0;
 
 /**
  * @title MEP20 interface
