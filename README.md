@@ -6,18 +6,27 @@ MEPs repo contains the MXC Evolution Proposals for EVM compatible chains. The pr
 
 Different MEPs describe different parts of the system and influence different stages of the data exchange protocol.
 
-### MEP-801
+## Contributing
 
-MEP-801 defines the interface to create tenants and applications. A partner (business owner) has the ability to create a root organization (tenant) under which he can create specific applications for different purposes.
+1. Review [MEP-1](./MEP-1.md).
+2. Fork the repository by clicking "Fork" in the top right.
+3. Add your MEP to your fork of the repository. There is a [template MEP here](./eip-template.md).
+4. Submit a Pull Request to MXC's [MEPs repository](https://github.com/MXCzkEVM/MEPs).
 
-### MEP-802
+Your first PR should be a first draft of the final MEP. It must meet the formatting criteria enforced by the build (largely, correct metadata in the header). An editor will manually review the first PR for a new MEP and assign it a number before merging it. Make sure you include a `discussions-to` header with the URL to a discussion forum or open GitHub issue where people can discuss the MEP as a whole.
 
-MEP-802 defines the contract layout for a provisioning contract. This contract serves the purpose of provisioning different devices (sensors) as NFTs. The business owner has the ability to provision a sensor NFT with the metadata describing the NFT and sensor specifics. The sensor owner has the ability to claim the NFT and collect rewards based on the data efficiency of the sensor.
+If your MEP requires images, the image files should be included in a subdirectory of the `assets` folder for that MEP as follows: `assets/mep-X` (for MEP X). When linking to an image in the MEP, use relative links such as `../assets/mep-X/image.png`.
 
-### MEP-803
+## MEPs
 
-MEP-803 defines the device profile for a given set of devices. The device profile defines the LoRaWAN specification for a family of sensors, codec for decoding the LoRaWAN frames, as well as some parameters which are specific to the application.
-
-### MEP-804
-
-MEP-804 defines the interface for a reward token. It extends the classical ERC-20 specification with additions like transfering token from the sensor's address, fuel tank, rewarding pools and how the rewards are distribution in each cycle.
+| MEP Number | Title                                                    | Type      | Status |
+| ---------- | -------------------------------------------------------- | --------- | ------ |
+| MEP-1      | Purpose and Guidelines                                   | Process   | Living |
+| MEP-20     | Tokens on MXC zkEVM Chain                                | Standards | Draft  |
+| MEP-721    | Non-Fungible Token Standard on MXC zkEVM Chain           | Standards | Draft  |
+| MEP-801    | ISO Application Contract                                 | Standards | Draft  |
+| MEP-802    | Provisioning Contract                                    | Standards | Draft  |
+| MEP-803    | Sensor Data Contract                                     | Standards | Draft  |
+| MEP-804    | Reward Token Contract                                    | Standards | Draft  |
+| MEP-1002   | Nestable Non-Fungible Tokens Tied to IoT Geolocations    | Standards | Draft  |
+| MEP-1004   | Non-Fungible Tokens Tied to IoT Radio Base Station Miner | Standards | Draft  |
