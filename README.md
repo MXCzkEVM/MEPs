@@ -32,3 +32,4 @@ If your MEP requires images, the image files should be included in a subdirector
 | [MEP-1004](proposals/mep-1004.md) | Non-Fungible Tokens Tied to IoT Radio Base Station Miner | Standards | Draft  |
 | [MEP-1759](proposals/mep-1759.md) | MXC DApp Store Metadata Standard                         | Standards | Draft  |
 | [MEP-600](proposals/mep-600.md)   | NFT NFC Contract                                         | Standards | Draft  |
+| [MEP-2542](proposals/mep-2542.md) | Multi-Token Mining for MEP-1004 Radio Miners           | Standards | Draft  |
