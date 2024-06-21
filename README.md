@@ -33,3 +33,4 @@ If your MEP requires images, the image files should be included in a subdirector
 | [MEP-1759](proposals/mep-1759.md) | MXC DApp Store Metadata Standard                         | Standards | Living|
 | [MEP-600](proposals/mep-600.md)   | NFT NFC Contract                                         | Standards | Draft  |
 | [MEP-2542](proposals/mep-2542.md) | Multi-Token Mining for MEP-1004 Radio Miners           | Standards | Living  |
+| [MEP-3355](proposals/mep-3355.md)   | LLM Friendly Transaction Memo Format                    | Standards | Draft  |
